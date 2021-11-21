@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"06 春 _1__atlas_1", frames: [[0,0,1055,659]]}
+		{name:"復原_06 春 _1__atlas_1", frames: [[0,0,1055,659]]}
 ];
 
 
@@ -28,7 +28,7 @@ lib.ssMetadata = [
 
 
 (lib.春到了 = function() {
-	this.initialize(ss["06 春 _1__atlas_1"]);
+	this.initialize(ss["復原_06 春 _1__atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -401,7 +401,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,94,90.6);
 
 
 // stage content:
-(lib._06春1 = function(mode,startPosition,loop,reversed) {
+(lib.復原_06春1 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -437,7 +437,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/06 春 _1__atlas_1.png?1637482965461", id:"06 春 _1__atlas_1"}
+		{src:"images/復原_06 春 _1__atlas_1.png?1637487527088", id:"復原_06 春 _1__atlas_1"}
 	],
 	preloads: []
 };
